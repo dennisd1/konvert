@@ -1,0 +1,16 @@
+User-Agent: *
+Disallow: /wizard
+Disallow: /preview
+Disallow: /download
+Disallow: /receivers
+Disallow: /inventory
+Disallow: /log
+Disallow: /groups
+Disallow: /images
+Disallow: /senders
+Allow: /user/register
+Allow: /user/login
+Allow: /user/password/reset/$
+Disallow: /user
+Clean-param: next /user/login/
+Host: konvert-online.ru
